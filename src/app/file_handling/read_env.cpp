@@ -16,6 +16,6 @@ class readEnv
       std::stringstream buffer;
       buffer << f_stream.rdbuf();
       std::string content = buffer.str();
-      retyrn content; 
+      return content; 
      }
 };

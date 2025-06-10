@@ -1,5 +1,5 @@
-#include "Cryption.hpp"
-#include "../processes/Task.hpp"
+#include "cryption.hpp"
+#include "../processes/task.hpp"
 #include "../file_handling/read_env.cpp"
 
 int execute_cryption(const std::string &task_data)
